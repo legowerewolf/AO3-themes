@@ -2,7 +2,13 @@
     display: none;
 }
 
-.texting-container * {
+.texting-container div {
+    width: 100%;
+    margin:0;
+    padding: 0;
+}
+
+.texting-container div * {
     width:fit-content;
     max-width: 60%;
     border-radius: 1em;
@@ -11,40 +17,40 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.texting-container .name {
+.texting-container div .name {
     font-size: .6em;
     border-radius: 0;
     padding: .1px;
     font-weight: bold;
 }
 
-.texting-container .left {
+.texting-container div.left * {
     margin-left: 5px;
     margin-right: auto;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
 
-.texting-container .left.name + .left {
+.texting-container div.left .name + * {
     border-top-left-radius: 1em;
 }
 
-.texting-container .left.bottom {
+.texting-container div.left *:last-child {
     border-bottom-left-radius: 1em;
 }
 
-.texting-container .right {
+.texting-container div.right * {
     margin-right: 5px;
     margin-left: auto;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
 
-.texting-container .right.name + .right {
+.texting-container div.right .name + * {
     border-top-right-radius: 1em;
 }
 
-.texting-container .right.bottom {
+.texting-container div.right *:last-child {
     border-bottom-right-radius: 1em;
 }
 
@@ -52,10 +58,10 @@
 Text bubble colors beyond this point.
 */
 
-.texting-container .red {
+.texting-container .red *:not(.name) {
     background:#f44336;
 }
 
-.texting-container .blue {
-    background: #2196f3;
+.texting-container .blue *:not(.name) {
+    background:#4d4aff;
 }
