@@ -11,48 +11,46 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.texting-container .left {
-    margin-left: 5px;
-    margin-right: auto;
-}
-
-.texting-container .left.top {
-    border-bottom-left-radius: 0;
-}
-
-.texting-container .left.middle {
-    border-bottom-left-radius: 0;
-    border-top-left-radius: 0;
-}
-
-.texting-container .left.bottom {
-    border-top-left-radius: 0;
-}
-
-.texting-container .right {
-    margin-right: 5px;
-    margin-left: auto;
-}
-
-.texting-container .right.top {
-    border-bottom-right-radius: 0px;
-}
-
-.texting-container .right.middle {
-    border-bottom-right-radius: 0;
-    border-top-right-radius: 0;
-}
-
-.texting-container .right.bottom {
-    border-top-right-radius: 0;
-}
-
 .texting-container .name {
     font-size: .6em;
     border-radius: 0;
     padding: .1px;
     font-weight: bold;
 }
+
+.texting-container .left {
+    margin-left: 5px;
+    margin-right: auto;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.texting-container .left.name + .left {
+    border-top-left-radius: 1em;
+}
+
+.texting-container .left.bottom {
+    border-bottom-left-radius: 1em;
+}
+
+.texting-container .right {
+    margin-right: 5px;
+    margin-left: auto;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.texting-container .right.name + .right {
+    border-top-right-radius: 1em;
+}
+
+.texting-container .right.bottom {
+    border-bottom-right-radius: 1em;
+}
+
+/*
+Text bubble colors beyond this point.
+*/
 
 .texting-container .red {
     background:#f44336;
