@@ -31,7 +31,8 @@
     border-bottom-left-radius: 0;
 }
 
-.texting-container div.left .name + * {
+.texting-container div.left .name + *,
+.texting-container div.left *:first-child {
     border-top-left-radius: 1em;
 }
 
@@ -46,7 +47,8 @@
     border-bottom-right-radius: 0;
 }
 
-.texting-container div.right .name + * {
+.texting-container div.right .name + *,
+.texting-container div.right *:first-child {
     border-top-right-radius: 1em;
 }
 
