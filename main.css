@@ -29,11 +29,17 @@ div.texting-container {
       padding: .1px;
       font-weight: bold; }
     div.texting-container div.red *:not(.name) {
-      background: #f44336; }
+      background: #ef5350; }
     div.texting-container div.blue *:not(.name) {
-      background: #6765ff; }
+      background: #42a5f5; }
+    div.texting-container div.teal *:not(.name) {
+      background: #26a69a; }
     div.texting-container div.green *:not(.name) {
-      background: #5aff54; }
+      background: #66bb6a; }
+    div.texting-container div.yellow *:not(.name) {
+      background: #ffee58; }
+    div.texting-container div.orange *:not(.name) {
+      background: #ff7043; }
     div.texting-container div.left * {
       margin-left: 5px;
       margin-right: auto;
