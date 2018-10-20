@@ -1,57 +1,59 @@
-#workskin div.texting-container {
+div.userstuff div.texting-container {
   width: 80%;
-  margin: auto; }
-  #workskin div.texting-container > div {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: sans-serif; }
+  div.userstuff div.texting-container > div {
     width: 100%;
     margin: 0;
     padding: 0; }
-    #workskin div.texting-container > div > * {
+    div.userstuff div.texting-container > div > * {
       width: fit-content;
       max-width: 60%;
       border-radius: 1em;
       padding: .4em;
       margin: 2px;
       font-family: 'Roboto', sans-serif; }
-    #workskin div.texting-container > div > .name {
+    div.userstuff div.texting-container > div > .name {
       font-size: .6em;
       border-radius: 0;
       padding: .1px;
       font-weight: bold; }
-    #workskin div.texting-container > div.red > *:not(.name) {
+    div.userstuff div.texting-container > div.red > *:not(.name) {
       background: #ef5350;
       color: black; }
-    #workskin div.texting-container > div.blue > *:not(.name) {
+    div.userstuff div.texting-container > div.blue > *:not(.name) {
       background: #42a5f5;
       color: black; }
-    #workskin div.texting-container > div.teal > *:not(.name) {
+    div.userstuff div.texting-container > div.teal > *:not(.name) {
       background: #26a69a;
       color: black; }
-    #workskin div.texting-container > div.green > *:not(.name) {
+    div.userstuff div.texting-container > div.green > *:not(.name) {
       background: #66bb6a;
       color: black; }
-    #workskin div.texting-container > div.yellow > *:not(.name) {
+    div.userstuff div.texting-container > div.yellow > *:not(.name) {
       background: #ffee58;
       color: black; }
-    #workskin div.texting-container > div.orange > *:not(.name) {
+    div.userstuff div.texting-container > div.orange > *:not(.name) {
       background: #ff7043;
       color: black; }
-    #workskin div.texting-container > div.left > * {
+    div.userstuff div.texting-container > div.left > * {
       margin-left: 5px;
       margin-right: auto;
       border-top-left-radius: 0;
       border-bottom-left-radius: 0; }
-    #workskin div.texting-container > div.left > .name + *,
-    #workskin div.texting-container > div.left > *:first-child {
+    div.userstuff div.texting-container > div.left > .name + *,
+    div.userstuff div.texting-container > div.left > *:first-child {
       border-top-left-radius: 1em; }
-    #workskin div.texting-container > div.left > *:last-child {
+    div.userstuff div.texting-container > div.left > *:last-child {
       border-bottom-left-radius: 1em; }
-    #workskin div.texting-container > div.right > * {
+    div.userstuff div.texting-container > div.right > * {
       margin-right: 5px;
       margin-left: auto;
       border-top-right-radius: 0;
       border-bottom-right-radius: 0; }
-    #workskin div.texting-container > div.right > .name + *,
-    #workskin div.texting-container > div.right > *:first-child {
+    div.userstuff div.texting-container > div.right > .name + *,
+    div.userstuff div.texting-container > div.right > *:first-child {
       border-top-right-radius: 1em; }
-    #workskin div.texting-container > div.right > *:last-child {
+    div.userstuff div.texting-container > div.right > *:last-child {
       border-bottom-right-radius: 1em; }

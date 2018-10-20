@@ -6,6 +6,9 @@ This skin adds:
 * Image display fixes - no more overflow that's hard for mobile users to see!
 * Easy-to-use texting formatting - with colors and labels for all your texting and group-chat fic needs.
 * Warnings about the usage of work skins. If users can't see the skin, it doesn't do them any good.
+* Fancy typesetting - serif font, justification, proper indentation, and space between paragraphs and other elements.
+
+A demo is avaliable [here](https://archiveofourown.org/works/16349828).
 
 ## Installation
 
@@ -18,9 +21,9 @@ This skin adds:
 
 When drafting a work, select the skin you created above from the drop-down menu in the "Associations" box, under the collections, gifting, and series settings.
 
-### Images
+### Image and Paragraph Formatting
 
-Add images just as you normally would. The CSS will center the image and scale it to fit within the width of the user's device/browser window.
+Write and add images just as you normally would. The CSS will handle the rest.
 
 ### Texting
 
@@ -71,3 +74,9 @@ This one is simple. You just want to include any element with the class `skin-wa
 It'll look something like this: 
 
 **A/N:** This work relies on a skin to make it look better. Enable the skin by clicking here: [[Enable work skin]](?style=creator).
+
+## Tips
+
+* Any HTML not in a `<p>` or `<div>` tag will get wrapped in a `<p>` tag by the Archive's HTML sanitizer. Images and other elements should get wrapped in a `<div>` for the formatting to apply properly. 
+
+* If you want only a subset of these features, you will need to copy and paste from the .css files in the appropriate subdirectories. 

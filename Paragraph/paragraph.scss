@@ -1,0 +1,21 @@
+div.userstuff {
+    > p {
+        font-family: serif;
+
+        text-indent: 1.5em;
+        text-align: justify;
+
+        margin-top: 0.5em;
+        margin-bottom: 0;
+        
+        &.skin-warning + p,
+        &:first-of-type {
+            text-indent: 0;
+        }
+    }
+
+    > :not(p) + p, 
+    > p + :not(p) {
+        margin-top: 1.5em;
+    }
+}
