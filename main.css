@@ -1,3 +1,13 @@
+img {
+  height: auto;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+
+.skin-warning {
+  display: none; }
+
 div.texting-container {
   width: 60vw;
   margin: auto; }

@@ -1,4 +1,4 @@
-.texting-container {
+div.texting-container {
     width: 60vw;
     margin: auto;
 
@@ -6,6 +6,7 @@
         width: 100%;
         margin: 0;
         padding: 0;
+        background: initial;
 
         * {
             width:fit-content;
@@ -23,48 +24,32 @@
             font-weight: bold;
         }
 
-        &.left {
-            * {
-                margin-left: 5px;
-                margin-right: auto;
-                border-top-left-radius: 0;
-                border-bottom-left-radius: 0;
-            }
-
-            .name + *, 
-            *:first-child {
-                border-top-left-radius: 1em;
-            }
-
-            *:last-child {
-                border-bottom-left-radius: 1em;
+        $colors: (red:#f44336, blue:#6765ff, green:#5aff54);
+        @each $color, $hex in $colors{
+            &.#{$color} *:not(.name) {
+                background: #{$hex};
             }
         }
 
-        &.right {
-            * {
-                margin-right: 5px;
-                margin-left: auto;
-                border-top-right-radius: 0;
-                border-bottom-right-radius: 0;
-            }
-
-            .name + *, 
-            *:first-child {
-                border-top-right-radius: 1em;
-            }
-
-            *:last-child {
-                border-top-right-radius: 1em;
+        $sides: (left: right, right: left);
+        @each $side, $opposite in $sides{
+            &.#{$side} {
+                * {
+                    margin-#{$side}: 5px;
+                    margin-#{$opposite}: auto;
+                    border-top-#{$side}-radius: 0;
+                    border-bottom-#{$side}-radius: 0;
+                }
+    
+                .name + *, 
+                *:first-child {
+                    border-top-#{$side}-radius: 1em;
+                }
+    
+                *:last-child {
+                    border-bottom-#{$side}-radius: 1em;
+                }
             }
         }
     }
-
-    .red *:not(.name) {
-        background:#f44336;
-    }
-
-    .blue *:not(.name) {
-        background:#4d4aff;
-    }
-}  
+}
