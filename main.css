@@ -3,7 +3,7 @@ CSS by @legowerewolf. Find it on GitHub: https://github.com/legowerewolf/AO3-the
 */
 #workskin img {
   height: auto;
-  width: 80vw;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   display: block; }
@@ -12,7 +12,7 @@ CSS by @legowerewolf. Find it on GitHub: https://github.com/legowerewolf/AO3-the
   display: none; }
 
 #workskin div.texting-container {
-  width: 60vw;
+  width: 80%;
   margin: auto; }
   #workskin div.texting-container div {
     width: 100%;
