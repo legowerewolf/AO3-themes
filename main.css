@@ -32,17 +32,23 @@
       padding: .1px;
       font-weight: bold; }
     #workskin div.texting-container div.red *:not(.name) {
-      background: #ef5350; }
+      background: #ef5350;
+      color: black; }
     #workskin div.texting-container div.blue *:not(.name) {
-      background: #42a5f5; }
+      background: #42a5f5;
+      color: black; }
     #workskin div.texting-container div.teal *:not(.name) {
-      background: #26a69a; }
+      background: #26a69a;
+      color: black; }
     #workskin div.texting-container div.green *:not(.name) {
-      background: #66bb6a; }
+      background: #66bb6a;
+      color: black; }
     #workskin div.texting-container div.yellow *:not(.name) {
-      background: #ffee58; }
+      background: #ffee58;
+      color: black; }
     #workskin div.texting-container div.orange *:not(.name) {
-      background: #ff7043; }
+      background: #ff7043;
+      color: black; }
     #workskin div.texting-container div.left * {
       margin-left: 5px;
       margin-right: auto;

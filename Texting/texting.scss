@@ -29,6 +29,7 @@ div.texting-container {
         @each $color, $hex in $colors{
             &.#{$color} *:not(.name) {
                 background: #{$hex};
+                color: black;
             }
         }
 
