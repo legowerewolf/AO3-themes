@@ -6,7 +6,6 @@ div.userstuff > p {
   margin-bottom: 0; }
   div.userstuff > p.skin-warning + p, div.userstuff > p:first-of-type {
     text-indent: 0; }
-
 div.userstuff > :not(p) + p,
 div.userstuff > p + :not(p) {
   margin-top: 1.5em; }

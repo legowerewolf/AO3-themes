@@ -30,7 +30,7 @@ div.userstuff {
 
             $colors: (red:#ef5350, blue:#42a5f5, teal:#26a69a, green:#66bb6a, yellow:#ffee58, orange: #ff7043);
             @each $color, $hex in $colors{
-                &.#{$color} > *:not(.name) {
+                &.#{"" + $color} > *:not(.name) {
                     background: #{$hex};
                     color: black;
                 }

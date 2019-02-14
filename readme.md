@@ -14,7 +14,7 @@ A demo is avaliable [here](https://archiveofourown.org/works/16349828).
 
 1. Log in to AO3, go [here](https://archiveofourown.org/skins?skin_type=WorkSkin), and click "Create Work Skin." Or, click [here](https://archiveofourown.org/skins/new?skin_type=WorkSkin).
 2. Fill out the form. Name, description, etc.
-3. Copy the contents of [this page](https://raw.githubusercontent.com/legowerewolf/AO3-themes/master/main.css) to the big empty CSS box.
+3. Copy the contents of [this page](https://raw.githubusercontent.com/legowerewolf/AO3-themes/master/build/main.css) to the big empty CSS box.
 4. Hit "Submit" at the bottom.
 
 ## Usage
@@ -51,12 +51,13 @@ This takes a bit more work. You're gonna want the HTML editor for this.
         </div>
     </div>
     ```
-4. Finally, you add messages. 
+4. Finally, you add messages as normal paragraph elements. 
     ```html
     <div class="texting-container">
         <div class="left red">
             <p class="name">Edgelord</p>
             <p>Hi, I'm an edgy edgelord.</p>
+            <p>How are you?</p>
         </div>
     </div>
     ```
@@ -71,7 +72,7 @@ This one is simple. You just want to include any element with the class `skin-wa
 <p class="skin-warning"><b>A/N:</b> This work relies on a skin to make it look better. Enable the skin by clicking here: <a href="?style=creator">[Enable work skin]</a></p>
 ```
 
-It'll look something like this: 
+It'll look like this: 
 
 **A/N:** This work relies on a skin to make it look better. Enable the skin by clicking here: [[Enable work skin]](?style=creator).
 
