@@ -1,5 +1,7 @@
 # AO3 General Work Skin
 
+[![ko-fi](https://www.ko-fi.com/img/donate_sm.png)](https://ko-fi.com/O4O6QKLP)
+
 Easy-to-use skin for works on Archive of Our Own. 
 This skin adds:
 
@@ -20,7 +22,7 @@ A demo is avaliable [here](https://archiveofourown.org/works/16349828).
 
 ## Usage
 
-When drafting a work, select the skin you created above from the drop-down menu in the "Associations" box, under the collections, gifting, and series settings.
+When drafting a work, select the skin you created above from the drop-down menu in the "Associations" box, under the collections, gifting, and series settings. Also, please add a link back to here for other people to see! It'll help other authors discover this skin.
 
 ### Image and Paragraph Formatting
 
