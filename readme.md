@@ -17,6 +17,7 @@ A demo is avaliable [here](https://archiveofourown.org/works/16349828).
 3. Copy the contents of [this page](https://raw.githubusercontent.com/legowerewolf/AO3-themes/master/build/main.css) to the big empty CSS box.
 4. Hit "Submit" at the bottom.
 
+
 ## Usage
 
 When drafting a work, select the skin you created above from the drop-down menu in the "Associations" box, under the collections, gifting, and series settings.
@@ -35,7 +36,7 @@ This takes a bit more work. You're gonna want the HTML editor for this.
 
     </div>
     ```
-2. Add a `div` inside of it, with the side of the screen you want the messages inside to be on and their color as classes. For sides, you can use `right` and `left`, and for colors you can use `red`, `blue`, `teal`, `green`, `yellow`, and `orange`.
+2. Add a `div` inside of it, with the side of the screen you want the messages inside to be on and their color as classes. For sides, you can use `right` and `left`, and for colors you can use `red`, `blue`, `teal`, `green`, `yellow`, and `orange`. Feel free to submit more colors by [opening a new issue](https://github.com/legowerewolf/AO3-themes/issues/new).
     ```html
     <div class="texting-container">
         <div class="left red">
@@ -80,4 +81,4 @@ It'll look like this:
 
 * Any HTML not in a `<p>` or `<div>` tag will get wrapped in a `<p>` tag by the Archive's HTML sanitizer. Images and other elements should get wrapped in a `<div>` for the formatting to apply properly. 
 
-* If you want only a subset of these features, you will need to copy and paste from the .css files in the appropriate subdirectories. 
+* If you want only a subset of these features, you will need to copy and paste from the appropriate .css files in the build directory. 

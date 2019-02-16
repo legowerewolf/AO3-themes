@@ -1,6 +1,7 @@
 /*
 CSS by @legowerewolf. Find it on GitHub: https://github.com/legowerewolf/AO3-themes
 */
+/* Image formatting by @legowerewolf */
 div.userstuff img {
   height: auto;
   width: 80%;
@@ -8,9 +9,11 @@ div.userstuff img {
   margin-right: auto;
   display: block; }
 
+/* Skin warning CSS by @legowerewolf */
 div.userstuff .skin-warning {
   display: none; }
 
+/* Paragraph formatting by @legowerewolf */
 div.userstuff > p {
   font-family: serif;
   text-indent: 1.5em;
@@ -23,6 +26,7 @@ div.userstuff > :not(p) + p,
 div.userstuff > p + :not(p) {
   margin-top: 1.5em; }
 
+/* Texting CSS by @legowerewolf */
 div.userstuff div.texting-container {
   width: 80%;
   margin-left: auto;
