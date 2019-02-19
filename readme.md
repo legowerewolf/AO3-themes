@@ -17,8 +17,8 @@ A demo is avaliable [here](https://archiveofourown.org/works/16349828).
 1. Log in to AO3, go [here](https://archiveofourown.org/skins?skin_type=WorkSkin), and click "Create Work Skin." Or, click [here](https://archiveofourown.org/skins/new?skin_type=WorkSkin).
 2. Fill out the form. Name, description, etc.
 3. Copy the contents of [this page](https://raw.githubusercontent.com/legowerewolf/AO3-themes/master/build/main.css) to the big empty CSS box.
+    > Tip: If you only want some of the features, look for the headings enclosed by `/*` and `*/` - they indicate what the following styles do.
 4. Hit "Submit" at the bottom.
-
 
 ## Usage
 
@@ -82,5 +82,3 @@ It'll look like this:
 ## Tips
 
 * Any HTML not in a `<p>` or `<div>` tag will get wrapped in a `<p>` tag by the Archive's HTML sanitizer. Images and other elements should get wrapped in a `<div>` for the formatting to apply properly. 
-
-* If you want only a subset of these features, you will need to copy and paste from the appropriate .css files in the build directory. 
