@@ -1,5 +1,6 @@
 language: node_js
-before-script: npm install
+node_js: node
+install: npm install && choco install sass -y
 script: npm run build
 deploy:
   provider: releases
