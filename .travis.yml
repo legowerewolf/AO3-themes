@@ -1,7 +1,7 @@
 language: node_js
 node_js: node
 os: windows
-install: choco install sass -y
+install: npm install
 script: npm run build
 deploy:
   provider: releases
