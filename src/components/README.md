@@ -2,11 +2,11 @@
 
 ## `images`
 
-Centers images and sets their width to 80% of the containing element.
+Centers images and sets their width to 80% of the containing element. Applies automatically to all `<img>` tags.
 
 ## `paragraph`
 
-Applies a serif font-face, justifies, and indents all paragraph elements.
+Applies a serif font-face, justifies, and indents all paragraph elements. Applies automatically to all `<p>` tags.
 
 ## `skin-warning`
 

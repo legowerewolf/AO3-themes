@@ -2,17 +2,19 @@
 
 [![ko-fi](https://www.ko-fi.com/img/donate_sm.png)](https://ko-fi.com/O4O6QKLP)
 
-Easy-to-use skins for works on Archive of Our Own. All skins below are built using the modular components listed [here](https://github.com/legowerewolf/AO3-themes/tree/master/src/components).
+Easy-to-use skins for works on Archive of Our Own.
 
-Skins
+## Skins
 
--   Generic theme: [demo](https://archiveofourown.org/works/16349828), [source](https://raw.githubusercontent.com/legowerewolf/AO3-themes/master/build/generic.css) {images, skin-warning, paragraph, texting}
+Each skin below is built using the modular components listed. Descriptions of each component and how to use it are [here](https://github.com/legowerewolf/AO3-themes/tree/master/src/components).
+
+-   Generic theme: [demo](https://archiveofourown.org/works/16349828) {images, skin-warning, paragraph, texting}
 
 ## Installation
 
 1. Log in to AO3, go [here](https://archiveofourown.org/skins?skin_type=WorkSkin), and click "Create Work Skin." Or, click [here](https://archiveofourown.org/skins/new?skin_type=WorkSkin).
 2. Fill out the form. Name, description, etc.
-3. Copy the contents of the built skin (the source link in the list above) to the big empty CSS box.
+3. Copy the contents of the built skin (from the Releases page) to the big empty CSS box.
     > Tip: If you only want some of the features, look for the headings enclosed by `/*` and `*/` - they indicate what the following styles do.
 4. Hit "Submit" at the bottom.
 
