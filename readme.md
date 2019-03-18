@@ -6,7 +6,7 @@ Easy-to-use skins for works on Archive of Our Own.
 
 Skins
 
--   Generic theme: [demo](https://archiveofourown.org/works/16349828)
+-   Generic theme: [demo](https://archiveofourown.org/works/16349828), [source](https://raw.githubusercontent.com/legowerewolf/AO3-themes/master/build/generic.css)
 
 ## Installation
 
