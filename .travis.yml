@@ -3,9 +3,11 @@ node_js: node
 os: windows
 script: npm run build
 deploy:
+  skip_cleanup: true
   provider: releases
   api_key:
     secure: B0qOfDfS4exoa9fXAYfuEdQS0r95MWsaa30xAlQKjSV4upGa7eKBcoaAOf9zFKojgBlWFoUPLQHwBJL6nGbuVRX/YryAl+smQdUDOZJ+5ECUzqGNsrrbgyd3BjAgGvXTfugUNUVP4iK3qt2wwrK/7P5RzOXuF0ElxmaOmh8XGJZ1Ubiiqw7iCx77HCIvRSm+OkG2zYTlUXQYYP4BaF7NuERSQrBsUaJ0WhDHihYU+53erY1URlOdeaSmo7yuIkzlX/a8Zh0P3HF8XNaxDns0S/YPMTsmWoL6RKAZSazb5HTTSe1f6RbKA54ZyjOTcYYJmo2MwoaFDRq7WoDKtV3WELT0aZYOod+2x+McvyOeFEukLp4OO/Mz6W+QRzPG6vP1QtgSyBsG/5p6/h6xzKaP1JTT0cW1fex0E4dQKdotNoUIKsjEMBj9P2v0/iY1xsOXLa5txJRHW0KCaIB/b7Zt+r+b970mGfCPt8OturcrvHLpHOpXIadXVsntckLQdRY3asxfvfWKws9yDrlAKyszUOdvTuKnyKtygKYNkVPdaAcEkZjxeFjhHC3CGPQup6FWxUbPp4MMBwcHfIyxgbSmQmDMQePB6HLAqBFLZPIYuxTV/iLJLxo8J4fI6iOD4wyvdNCu+7B2PTi4+tr1zBR83xa3Kq0WVWQt1vJvLcm7RF4=
+  file_glob: true
   file: build/*
   on:
     repo: legowerewolf/AO3-themes
