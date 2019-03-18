@@ -1,6 +1,6 @@
 {
 	"name": "ao3-themes",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "Easy-to-use skin for works on Archive of Our Own. \r This skin adds:",
 	"main": "index.js",
 	"scripts": {
