@@ -12,3 +12,4 @@ deploy:
   draft: true
   on:
     repo: legowerewolf/AO3-themes
+    all_branches: true
