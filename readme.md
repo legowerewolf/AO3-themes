@@ -2,11 +2,11 @@
 
 [![ko-fi](https://www.ko-fi.com/img/donate_sm.png)](https://ko-fi.com/O4O6QKLP)
 
-Easy-to-use skins for works on Archive of Our Own.
+Easy-to-use skins for works on Archive of Our Own. All skins below are built using the modular components listed [here](https://github.com/legowerewolf/AO3-themes/tree/master/src/components).
 
 Skins
 
--   Generic theme: [demo](https://archiveofourown.org/works/16349828), [source](https://raw.githubusercontent.com/legowerewolf/AO3-themes/master/build/generic.css)
+-   Generic theme: [demo](https://archiveofourown.org/works/16349828), [source](https://raw.githubusercontent.com/legowerewolf/AO3-themes/master/build/generic.css) {images, skin-warning, paragraph, texting}
 
 ## Installation
 

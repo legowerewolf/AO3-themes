@@ -22,6 +22,8 @@ _Example:_
 
 Provides classes and structure for displaying text messaging. Currently looks like the Android Messages app, but more styles will be on the way.
 
+> Tip: Colors available are: red, blue, teal, green, yellow, orange. Suggest more by creating an [issue](https://github.com/legowerewolf/AO3-themes/issues) with a name and a color code.
+
 _Example:_
 
 ```html
