@@ -6,7 +6,7 @@ div.userstuff {
 	div.texting-container {
 		@include centered-element;
 
-		font-family: sans-serif;
+		font-family: "Roboto", sans-serif;
 
 		> div {
 			width: 100%;
@@ -19,7 +19,6 @@ div.userstuff {
 				border-radius: 1em;
 				padding: 0.4em;
 				margin: 2px;
-				font-family: "Roboto", sans-serif;
 			}
 
 			> .name {
