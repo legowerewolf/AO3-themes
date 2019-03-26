@@ -14,7 +14,7 @@ Each skin below is built using the modular components listed. Descriptions of ea
 
 1. Log in to AO3, go [here](https://archiveofourown.org/skins?skin_type=WorkSkin), and click "Create Work Skin." Or, click [here](https://archiveofourown.org/skins/new?skin_type=WorkSkin).
 2. Fill out the form. Name, description, etc.
-3. Copy the contents of the built skin (from the Releases page) to the big empty CSS box.
+3. Copy the contents of the built skin (from the [latest release](https://github.com/legowerewolf/AO3-themes/releases/latest)) to the big empty CSS box.
     > Tip: If you only want some of the features, look for the headings enclosed by `/*` and `*/` - they indicate what the following styles do.
 4. Hit "Submit" at the bottom.
 
