@@ -2,7 +2,7 @@
 
 ## `images`
 
-Centers images and sets their width to 80% of the containing element. Applies automatically to all `<img>` tags.
+Centers images and sets their width to 90% of the containing element. Applies automatically to all `<img>` tags.
 
 ## `paragraph`
 
