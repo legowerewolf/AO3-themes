@@ -1,0 +1,9 @@
+@mixin centered-element($width: 90%) {
+	width: $width;
+	height: auto;
+
+	margin: {
+		left: auto;
+		right: auto;
+	}
+}

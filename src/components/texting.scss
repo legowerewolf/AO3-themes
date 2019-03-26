@@ -1,12 +1,11 @@
 /* Texting CSS by @legowerewolf */
 
+@import "../mixin/centered-element.scss";
+
 div.userstuff {
 	div.texting-container {
-		width: 80%;
-		margin: {
-			left: auto;
-			right: auto;
-		}
+		@include centered-element;
+
 		font-family: sans-serif;
 
 		> div {
