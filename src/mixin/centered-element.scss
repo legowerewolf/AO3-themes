@@ -3,7 +3,7 @@
 	height: auto;
 
 	margin: {
-		left: auto;
-		right: auto;
+		left: (100% - $width) / 2;
+		right: (100% - $width) / 2;
 	}
 }
