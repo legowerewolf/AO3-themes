@@ -4,6 +4,8 @@
 
 Easy-to-use skins for works on Archive of Our Own.
 
+Have an idea, but don't know what to do? [Make an issue](https://github.com/legowerewolf/AO3-themes/issues/new) and I'll work with you to bring your idea to fruition.
+
 ## Skins
 
 Each skin below is built using the modular components listed. Descriptions of each component and how to use it are [here](https://github.com/legowerewolf/AO3-themes/tree/master/src/components).
