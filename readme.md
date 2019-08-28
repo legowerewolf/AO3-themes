@@ -24,4 +24,16 @@ When drafting a work, select the skin you created above from the drop-down menu 
 
 ## Tips
 
--   Any HTML not in a `<p>` or `<div>` tag will get wrapped in a `<p>` tag by the Archive's HTML sanitizer. Images and other elements should get wrapped in a `<div>` for the formatting to apply properly.
+### Sanitization
+
+Archive of Our Own runs your input through a _sanitizer_ to make sure it's safe to share with the world. It enforces a number of rules, which can be found [here.](https://archiveofourown.org/help/html-help.html)
+
+Here are some quirks I've noticed:
+
+-   The only root elements allowed are paragraphs (`<p>`) and content divisions with a class attribute (`<div class="somename">`). Everything else will be wrapped in a paragraph.
+
+### Composition
+
+You're writing a story, not building a website. Regardless, when drafting in HTML, you should use an actual code editor. [Visual Studio Code](https://code.visualstudio.com/) is lightweight and easy to use.
+
+-   Image `<img>` tags should go inside an otherwise-empty paragraph tag.
