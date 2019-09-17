@@ -1,6 +1,6 @@
 # AO3 Work Skins
 
-[![ko-fi](https://www.ko-fi.com/img/donate_sm.png)](https://ko-fi.com/O4O6QKLP)
+
 
 Easy-to-use skins for works on Archive of Our Own.
 
