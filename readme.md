@@ -1,7 +1,5 @@
 # AO3 Work Skins
 
-
-
 Easy-to-use skins for works on Archive of Our Own.
 
 Have an idea, but don't know what to do? [Make an issue](https://github.com/legowerewolf/AO3-themes/issues/new) and I'll work with you to bring your idea to fruition.
@@ -10,7 +8,7 @@ Have an idea, but don't know what to do? [Make an issue](https://github.com/lego
 
 Each skin below is built using the modular components listed. Descriptions of each component and how to use it are [here](https://github.com/legowerewolf/AO3-themes/tree/master/src/components).
 
--   Generic theme: [demo](https://archiveofourown.org/works/16349828) {images, skin-warning, paragraph, texting}
+-   Generic theme: [demo](https://archiveofourown.org/works/16349828) {images, skin-warning, book-paragraph, texting}
 
 ## Installation
 

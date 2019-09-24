@@ -4,9 +4,9 @@
 
 Centers images and sets their width to 90% of the containing element. Applies automatically to all `<img>` tags.
 
-## `paragraph`
+## `book-paragraph`
 
-Applies a serif font-face, justifies, and indents all paragraph elements. Applies automatically to all `<p>` tags.
+Justifies and indents paragraph elements, as would be found in a novel. Applies automatically to all `<p>` tags.
 
 ## `skin-warning`
 
