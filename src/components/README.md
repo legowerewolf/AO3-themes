@@ -20,9 +20,9 @@ _Example:_
 
 ## `texting`
 
-Provides classes and structure for displaying text messaging. Currently looks like the Android Messages app, but more styles will be on the way.
+Provides classes and structure for displaying texting or IMing. Currently looks most like Android Messages, but additional styles can be created on request.
 
-> Tip: Colors available are: red, blue, teal, green, yellow, orange. Suggest more by creating an [issue](https://github.com/legowerewolf/AO3-themes/issues) with a name and a color code.
+> Tip: Colors available are: red, blue, teal, green, yellow, orange, apple-blue. Suggest more by creating an [issue](https://github.com/legowerewolf/AO3-themes/issues) with a name and a color code.
 
 _Example:_
 
