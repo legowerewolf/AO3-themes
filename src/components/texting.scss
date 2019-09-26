@@ -2,39 +2,14 @@
 
 @import "../mixin/centered-element.scss";
 
-@font-face {
-	font-family: "Roboto";
-	font-style: normal;
-	font-weight: 400;
-	font-display: swap;
-	src: local("Roboto"), local("Roboto-Regular"), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format("woff2");
-}
-
 div.userstuff {
-	div.texting-container {
+	div[class|="texting-container"] {
 		@include centered-element;
-
-		font-family: "Roboto", sans-serif;
 
 		> div {
 			width: 100%;
 			margin: 0;
 			padding: 0;
-
-			> * {
-				width: fit-content;
-				max-width: 80%;
-				border-radius: 1em;
-				padding: 0.4em;
-				margin: 2px;
-			}
-
-			> .name {
-				font-size: 0.7em;
-				border-radius: 0;
-				padding: 0.1px;
-				font-weight: bold;
-			}
 
 			$colors: (
 				red: (
@@ -71,6 +46,28 @@ div.userstuff {
 					background: map-get($map: $colors, $key: bubble);
 					color: map-get($map: $colors, $key: text);
 				}
+			}
+		}
+	}
+
+	div.texting-container,
+	div.texting-container-android {
+		font-family: "Roboto", sans-serif;
+
+		> div {
+			> * {
+				width: fit-content;
+				max-width: 80%;
+				border-radius: 1em;
+				padding: 0.4em;
+				margin: 2px;
+			}
+
+			> .name {
+				font-size: 0.7em;
+				border-radius: 0;
+				padding: 0.1px;
+				font-weight: bold;
 			}
 
 			$sides: (
