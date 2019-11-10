@@ -2,14 +2,6 @@
 
 @import "../mixin/centered-element.scss";
 
-@font-face {
-	font-family: "Roboto";
-	font-style: normal;
-	font-weight: 400;
-	font-display: swap;
-	src: local("Roboto"), local("Roboto-Regular"), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format("woff2");
-}
-
 div.userstuff {
 	div.texting-container {
 		@include centered-element;
