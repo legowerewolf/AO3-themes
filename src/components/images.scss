@@ -3,7 +3,7 @@
 @import "../mixin/centered-element.scss";
 
 div.userstuff {
-	> img {
+	img {
 		@include centered-element;
 	}
 }
