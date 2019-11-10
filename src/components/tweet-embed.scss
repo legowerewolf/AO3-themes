@@ -1,0 +1,54 @@
+@import "../mixin/centered-element.scss";
+
+$twitter-blue: #1da1f2;
+
+div.userstuff {
+	div.tweet-container {
+		@include centered-element(300px);
+
+		padding: 1em;
+
+		border: {
+			radius: 5px;
+
+			width: 1px;
+			style: solid;
+			color: #e1e8ed;
+		}
+
+		font-family: Helvetica, Roboto, "Segoe UI", Calibri, sans-serif;
+		color: black;
+
+		display: grid;
+		grid-template: {
+			columns: 50px 1fr;
+			rows: 25px 25px 1fr;
+		}
+		grid-column-gap: 5px;
+
+		img.avatar {
+			width: 50px;
+			height: 50px;
+			grid-area: 1 / 1 / 3 / 2;
+			border-radius: 25px;
+		}
+
+		span {
+			&.displayname {
+				font-weight: bold;
+				grid-area: 1 / 2 / 2 / 3;
+				align-self: end;
+			}
+			&.username {
+				color: #697882;
+				grid-area: 2 / 2 / 3 / 3;
+				align-self: start;
+			}
+		}
+
+		p {
+			grid-area: 3 / 1 / 4 / 3;
+			align-self: start;
+		}
+	}
+}

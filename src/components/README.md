@@ -39,3 +39,18 @@ _Example:_
 	</div>
 </div>
 ```
+
+## `tweet-embed.scss`
+
+Makes it simple to add faux tweets to your fic. It handles extra elements after the `<p>` tag pretty well.
+
+```html
+<div class="tweet-container">
+	<img class="avatar" src="https://avatars2.githubusercontent.com/u/9828842" />
+	<span class="displayname">Duncan G.</span>
+	<span class="username">@legowerewolf</span>
+	<p>
+		Hello, everyone!
+	</p>
+</div>
+```
