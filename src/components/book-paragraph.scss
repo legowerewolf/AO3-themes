@@ -13,8 +13,8 @@ div.userstuff {
 		}
 	}
 
-	> :not(p) + p,
-	> p + :not(p) {
+	> :not(p) + *,
+	> * + :not(p) {
 		margin-top: 1.5em;
 	}
 }
