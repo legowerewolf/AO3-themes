@@ -4,7 +4,8 @@
 	"description": "Easy-to-use skin for works on Archive of Our Own. \r This skin adds:",
 	"main": "index.js",
 	"scripts": {
-		"build": "sass --update ./src:./build --no-source-map"
+		"build": "sass --update ./src:./build --no-source-map",
+		"watch": "npm run build -- --watch"
 	},
 	"repository": {
 		"type": "git",
