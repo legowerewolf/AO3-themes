@@ -4,7 +4,6 @@
 
 div.userstuff {
 	> img {
-		display: block;
 		@include centered-element;
 	}
 }
