@@ -11,8 +11,8 @@ bring your idea to fruition.
 Each skin below is built using the modular components listed. Descriptions of each component and how
 to use it are [here](https://github.com/legowerewolf/AO3-themes/tree/master/src/components).
 
-- Generic theme: [demo](https://archiveofourown.org/works/16349828) {images, skin-warning,
-  book-paragraph, texting}
+-   Generic theme: [demo](https://archiveofourown.org/works/16349828) {images, skin-warning,
+    book-paragraph, texting} (generic.css)
 
 ## Installation
 
@@ -22,8 +22,8 @@ to use it are [here](https://github.com/legowerewolf/AO3-themes/tree/master/src/
 3. Copy the contents of the built skin (from the
    [latest release](https://github.com/legowerewolf/AO3-themes/releases/latest)) to the big empty
    CSS box.
-   > Tip: If you only want some of the features, look for the headings enclosed by `/*` and `*/` -
-   > they indicate what the following styles do.
+    > Tip: If you only want some of the features, look for the headings enclosed by `/*` and `*/` -
+    > they indicate what the following styles do.
 4. Hit "Submit" at the bottom.
 
 ## Usage
@@ -42,8 +42,8 @@ world. It enforces a number of rules, which can be found
 
 Here are some quirks I've noticed:
 
-- The only root elements allowed are paragraphs (`<p>`) and content divisions with a class attribute
-  (`<div class="somename">`). Everything else will be wrapped in a paragraph.
+-   The only root elements allowed are paragraphs (`<p>`) and content divisions with a class
+    attribute (`<div class="somename">`). Everything else will be wrapped in a paragraph.
 
 ### Composition
 
@@ -51,18 +51,18 @@ You're writing a story, not building a website. Regardless, when drafting in HTM
 actual code editor. [Visual Studio Code](https://code.visualstudio.com/) is lightweight and easy to
 use.
 
-- Image `<img>` tags should go inside a content division.
+-   Image `<img>` tags should go inside a content division.
 
-  This will work, but not quite right. It'll get wrapped in a paragraph tag.
+    This will work, but not quite right. It'll get wrapped in a paragraph tag.
 
-  ```html
-  <img src="..." />
-  ```
-
-  This will work better:
-
-  ```html
-  <div class="_">
+    ```html
     <img src="..." />
-  </div>
-  ```
+    ```
+
+    This will work better:
+
+    ```html
+    <div class="_">
+        <img src="..." />
+    </div>
+    ```
