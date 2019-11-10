@@ -2,8 +2,10 @@
 	width: $width;
 	height: auto;
 
+	display: block;
+
 	margin: {
-		left: (100% - $width) / 2;
-		right: (100% - $width) / 2;
+		left: auto;
+		right: auto;
 	}
 }
