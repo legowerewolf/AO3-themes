@@ -1,5 +1,5 @@
 @mixin centered-element($width: 90%) {
-	width: $width;
+	max-width: $width;
 	height: auto;
 
 	display: block;
