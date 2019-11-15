@@ -2,7 +2,7 @@
 
 @import "../mixin/centered-element.scss";
 
-div.userstuff {
+div[role="article"] {
 	img {
 		@include centered-element;
 	}
