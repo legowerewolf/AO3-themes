@@ -18,6 +18,6 @@
 	},
 	"homepage": "https://github.com/legowerewolf/AO3-themes#readme",
 	"devDependencies": {
-		"sass": "^1.17.3"
+		"sass": "^1.23.3"
 	}
 }
