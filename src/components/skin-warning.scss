@@ -1,5 +1,5 @@
 /* Skin warning CSS by @legowerewolf */
-div[role="article"] {
+@mixin skin-warning {
 	.skin-warning {
 		display: none;
 	}

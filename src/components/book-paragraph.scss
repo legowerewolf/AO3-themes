@@ -1,5 +1,5 @@
 /* Paragraph formatting by @legowerewolf */
-div[role="article"] {
+@mixin book-paragraph {
 	> p {
 		text-indent: 1.5em;
 		text-align: justify;

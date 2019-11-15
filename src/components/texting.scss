@@ -2,7 +2,7 @@
 
 @import "../mixin/centered-element.scss";
 
-div[role="article"] {
+@mixin texting {
 	div.texting-container {
 		@include centered-element;
 

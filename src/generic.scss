@@ -2,7 +2,16 @@
 CSS by @legowerewolf. Find it on GitHub: https://github.com/legowerewolf/AO3-themes
 */
 
-@import "./components/images.scss";
-@import "./components/skin-warning.scss";
-@import "./components/book-paragraph.scss";
-@import "./components/texting.scss";
+@use "./components/images.scss";
+@use "./components/skin-warning.scss";
+@use "./components/book-paragraph.scss";
+@use "./components/texting.scss";
+
+div#workskin {
+	div[role="article"] {
+		@include images.images();
+		@include skin-warning.skin-warning();
+		@include book-paragraph.book-paragraph();
+		@include texting.texting();
+	}
+}

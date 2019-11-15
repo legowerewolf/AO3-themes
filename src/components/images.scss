@@ -1,9 +1,9 @@
 /* Image formatting by @legowerewolf */
 
-@import "../mixin/centered-element.scss";
+@use "../mixin/centered-element.scss";
 
-div[role="article"] {
+@mixin images {
 	img {
-		@include centered-element;
+		@include centered-element.centered-element();
 	}
 }
