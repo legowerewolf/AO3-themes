@@ -1,91 +1,91 @@
 @import "../mixin/centered-element.scss";
 
 @mixin texting {
-	div.texting-container {
-		@include centered-element;
+    div.texting-container {
+        @include centered-element;
 
-		font-family: "Roboto", sans-serif;
+        font-family: "Roboto", sans-serif;
 
-		> div {
-			width: 100%;
-			margin: 0;
-			padding: 0;
+        > div {
+            width: 100%;
+            margin: 0;
+            padding: 0;
 
-			> * {
-				width: fit-content;
-				max-width: 80%;
-				border-radius: 1em;
-				padding: 0.4em;
-				margin: 2px;
-			}
+            > * {
+                width: fit-content;
+                max-width: 80%;
+                border-radius: 1em;
+                padding: 0.4em;
+                margin: 2px;
+            }
 
-			> .name {
-				font-size: 0.7em;
-				border-radius: 0;
-				padding: 0.1px;
-				font-weight: bold;
-			}
+            > .name {
+                font-size: 0.7em;
+                border-radius: 0;
+                padding: 0.1px;
+                font-weight: bold;
+            }
 
-			$colors: (
-				red: (
-					bubble: #ef5350,
-					text: black,
-				),
-				blue: (
-					bubble: #42a5f5,
-					text: black,
-				),
-				teal: (
-					bubble: #26a69a,
-					text: black,
-				),
-				green: (
-					bubble: #66bb6a,
-					text: black,
-				),
-				yellow: (
-					bubble: #ffee58,
-					text: black,
-				),
-				orange: (
-					bubble: #ff7043,
-					text: black,
-				),
-				apple-blue: (
-					bubble: #1487fe,
-					text: white,
-				),
-			);
-			@each $name, $colors in $colors {
-				&.#{"" + $name} > *:not(.name) {
-					background: map-get($map: $colors, $key: bubble);
-					color: map-get($map: $colors, $key: text);
-				}
-			}
+            $colors: (
+                red: (
+                    bubble: #ef5350,
+                    text: black
+                ),
+                blue: (
+                    bubble: #42a5f5,
+                    text: black
+                ),
+                teal: (
+                    bubble: #26a69a,
+                    text: black
+                ),
+                green: (
+                    bubble: #66bb6a,
+                    text: black
+                ),
+                yellow: (
+                    bubble: #ffee58,
+                    text: black
+                ),
+                orange: (
+                    bubble: #ff7043,
+                    text: black
+                ),
+                apple-blue: (
+                    bubble: #1487fe,
+                    text: white
+                )
+            );
+            @each $name, $colors in $colors {
+                &.#{"" + $name} > *:not(.name) {
+                    background: map-get($map: $colors, $key: bubble);
+                    color: map-get($map: $colors, $key: text);
+                }
+            }
 
-			$sides: (
-				left: right,
-				right: left,
-			);
-			@each $side, $opposite in $sides {
-				&.#{$side} {
-					> * {
-						margin-#{$side}: 5px;
-						margin-#{$opposite}: auto;
-						border-top-#{$side}-radius: 0;
-						border-bottom-#{$side}-radius: 0;
-					}
+            $sides: (
+                left: right,
+                right: left
+            );
+            @each $side, $opposite in $sides {
+                &.#{$side} {
+                    > * {
+                        margin-#{$side}: 5px;
+                        margin-#{$opposite}: auto;
+                        border-top-#{$side}-radius: 0;
+                        border-bottom-#{$side}-radius: 0;
+                    }
 
-					> .name + *,
-					> *:first-child {
-						border-top-#{$side}-radius: 1em;
-					}
+                    > .name + *,
+                    > *:first-child {
+                        border-top-#{$side}-radius: 1em;
+                    }
 
-					> *:last-child {
-						border-bottom-#{$side}-radius: 1em;
-					}
-				}
-			}
-		}
-	}
+                    > *:last-child {
+                        border-bottom-#{$side}-radius: 1em;
+                    }
+                }
+            }
+        }
+    }
 }
