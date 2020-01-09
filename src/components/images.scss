@@ -1,7 +1,0 @@
-@use "../mixin/centered-element.scss";
-
-@mixin images {
-	img {
-		@include centered-element.centered-element();
-	}
-}

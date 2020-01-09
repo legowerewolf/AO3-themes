@@ -2,16 +2,15 @@
 CSS by @legowerewolf. Find it on GitHub: https://github.com/legowerewolf/AO3-themes
 */
 
-@use "./components/images.scss";
+@use "./components/enhancements.scss";
 @use "./components/skin-warning.scss";
-@use "./components/book-paragraph.scss";
 @use "./components/texting.scss";
 
-div#workskin {
+#workskin {
 	div[role="article"] {
-		@include images.images();
+		@include enhancements.images();
+		@include enhancements.book-paragraph();
 		@include skin-warning.skin-warning();
-		@include book-paragraph.book-paragraph();
 		@include texting.texting();
 	}
 }
