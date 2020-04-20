@@ -63,21 +63,19 @@ $sides: (
             }
 
             @each $colorname, $color in $colors {
-                &.#{$colorname} {
-                    p {
-                        &.name {
-                            font-size: 0.7em;
-                            padding: 0.1px;
-                            font-weight: bold;
-                            background: none;
-                            color: inherit;
-                        }
+                &.#{$colorname} * {
+                    background: $color;
+                    color: readable-text-color($color);
+                }
+            }
 
-                        &:not(.name) {
-                            background: $color;
-                            color: readable-text-color($color);
-                        }
-                    }
+            p {
+                &.name {
+                    font-size: 0.7em;
+                    padding: 0.1px;
+                    font-weight: bold;
+                    background: none;
+                    color: unset;
                 }
             }
 
