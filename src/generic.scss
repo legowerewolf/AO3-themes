@@ -10,6 +10,7 @@ CSS by @legowerewolf. Find it on GitHub: https://github.com/legowerewolf/AO3-the
     div[role="article"] {
         @include enhancements.images();
         @include enhancements.book-paragraph();
+        @include enhancements.translate-tooltip();
         @include skin-warning.skin-warning();
         @include texting.texting();
     }

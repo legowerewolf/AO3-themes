@@ -20,6 +20,12 @@
     }
 }
 
+@mixin translate-tooltip {
+    span[title] {
+        border-bottom: 2px rgba($color: green, $alpha: 0.5) dashed;
+    }
+}
+
 @mixin images {
     img {
         @include centered-element.centered-element();
