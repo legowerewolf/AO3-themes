@@ -30,20 +30,15 @@ $sides: (
         font-family: "Roboto", sans-serif;
 
         > div {
-            width: 100%;
+            width: 80%;
             margin: 0;
             padding: 0;
 
-            > * {
-                width: fit-content;
-                max-width: 80%;
-                border-radius: 1em;
-                padding: 0.4em;
-                margin: 2px;
-            }
-
             @each $side, $opposite in $sides {
                 &.#{$side} {
+                    margin-#{$side}: 5px;
+                    margin-#{$opposite}: auto;
+
                     > * {
                         margin-#{$side}: 5px;
                         margin-#{$opposite}: auto;
@@ -62,6 +57,14 @@ $sides: (
                 }
             }
 
+            * {
+                width: fit-content;
+                max-width: 100%;
+                border-radius: 1em;
+
+                margin: 2px;
+            }
+
             @each $colorname, $color in $colors {
                 &.#{$colorname} * {
                     background: $color;
@@ -70,6 +73,8 @@ $sides: (
             }
 
             p {
+                padding: 0.4em;
+
                 &.name {
                     font-size: 0.7em;
                     padding: 0.1px;
@@ -83,12 +88,8 @@ $sides: (
             picture,
             video,
             audio {
-                padding: 0;
-                background: none;
-            }
-
-            audio {
-                width: 100%;
+                @include centered-element(100%);
+                border-radius: inherit;
             }
         }
     }
