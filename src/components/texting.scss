@@ -64,7 +64,7 @@ $sides: (
             }
 
             @each $colorname, $color in $colors {
-                &.#{$colorname} * {
+                &.#{$colorname} p {
                     background: $color;
                     color: readable-text-color($color);
                 }
@@ -88,6 +88,7 @@ $sides: (
             audio {
                 @include centered-element(100%);
                 border-radius: inherit;
+                min-width: 40vw;
             }
         }
     }
