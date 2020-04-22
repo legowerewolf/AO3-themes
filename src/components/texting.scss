@@ -80,6 +80,11 @@ $sides: (
                     background: none;
                     color: unset;
                 }
+
+                &:empty {
+                    background: none;
+                    padding: 0;
+                }
             }
 
             img,
