@@ -11,6 +11,8 @@ CSS by @legowerewolf. Find it on GitHub: https://github.com/legowerewolf/AO3-the
         @include enhancements.images();
         @include enhancements.book-paragraph();
         @include enhancements.translate-tooltip();
+        @include enhancements.mediawrap();
+        @include enhancements.nojunk();
         @include skin-warning.skin-warning();
         @include texting.texting();
     }

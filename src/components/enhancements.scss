@@ -32,3 +32,19 @@
         max-height: 80vh;
     }
 }
+
+@mixin mediawrap {
+    div.mediawrap p {
+        padding: 0 !important;
+        background: none !important;
+        margin: 0 !important;
+        border-radius: inherit !important;
+    }
+}
+
+@mixin nojunk {
+    br,
+    p:empty {
+        display: none;
+    }
+}

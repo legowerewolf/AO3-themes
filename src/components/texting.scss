@@ -74,16 +74,11 @@ $sides: (
                 padding: 0.4em;
 
                 &.name {
-                    font-size: 0.7em;
+                    font-size: 0.9em;
                     padding: 0.1px;
                     font-weight: bold;
                     background: none;
                     color: unset;
-                }
-
-                &:empty {
-                    background: none;
-                    padding: 0;
                 }
             }
 
