@@ -31,7 +31,7 @@ $sides: (
 
         > div {
             width: 80%;
-            margin: 0;
+            margin: 2px;
             padding: 0;
 
             @each $side, $opposite in $sides {
@@ -40,8 +40,6 @@ $sides: (
                     margin-#{$opposite}: auto;
 
                     > * {
-                        margin-#{$side}: 5px;
-                        margin-#{$opposite}: auto;
                         border-top-#{$side}-radius: 0;
                         border-bottom-#{$side}-radius: 0;
                     }
@@ -62,7 +60,7 @@ $sides: (
                 max-width: 100%;
                 border-radius: 1em;
 
-                margin: 2px;
+                margin: inherit;
             }
 
             @each $colorname, $color in $colors {
