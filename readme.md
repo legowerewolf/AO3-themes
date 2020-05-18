@@ -34,6 +34,18 @@ back to here in the notes for other people to see! It'll help other authors disc
 
 ## Tips
 
+If you don't need to do anything weird with formatting? Write your stories in Word or Google Docs
+and copy them into the rich text editor. That'll handle any of the common formatting (like italics
+or bolding) and make sure you're generating valid markup to render.
+
+On the flip side, if you do need to do something odd, you're gonna have to code it manually. I
+recommend writing up as much of your story in a standard document editor like Word or Docs and
+leaving a little note for where you need to insert non-standard stuff. Copy and paste the whole
+thing into the rich text editor, then find and replace that note with your actual code.
+
+If you're really having issues, let me know on one of my platforms [here](https://legowerewolf.net)
+or through the issue form above and I'll do my very best to help you.
+
 ### Sanitization
 
 Archive of Our Own runs your input through a _sanitizer_ to make sure it's safe to share with the
@@ -66,3 +78,9 @@ use.
         <img src="..." />
     </div>
     ```
+
+### Testing
+
+I've included a `demo.html` file that includes the generic stylesheet and adds styles for validating
+content. Compose between the `<!-- comments -->`, and open it in your browser to check. If it comes
+up surrounded in a red box, the sanitizer might get mad at you.
